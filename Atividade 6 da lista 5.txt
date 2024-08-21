@@ -1,0 +1,11 @@
+let palavra1 = prompt("Digite a primeira palavra: ");
+let palavra2 = prompt("Digite a segunda palavra: ");
+
+let palavra1Array = palavra1.toLowerCase().split("").sort();
+let palavra2Array = palavra2.toLowerCase().split("").sort();
+
+if (palavra1Array.join("") === palavra2Array.join("")) {
+  alert("A segunda palavra é um anagrama da primeira!");
+} else {
+  alert("A segunda palavra não é um anagrama da primeira.");
+}

@@ -1,0 +1,5 @@
+let frase = prompt("Digite uma frase: ");
+
+let quantidadeEspacos = frase.split(" ").length - 1;
+
+alert(`A frase tem ${quantidadeEspacos} espaços em branco.`);

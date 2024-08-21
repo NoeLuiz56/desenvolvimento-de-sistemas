@@ -1,0 +1,7 @@
+let nomeCompleto = prompt("Digite seu nome completo: ");
+
+let nomes = nomeCompleto.split(" ");
+let sobrenome = nomes[nomes.length - 1];
+let nomeRestante = nomes.slice(0, -1).join(" ");
+
+alert(`${sobrenome} ${nomeRestante}`);

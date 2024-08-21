@@ -1,0 +1,10 @@
+let a = parseFloat(prompt("Digite o valor do lado a do triângulo: "));
+let b = parseFloat(prompt("Digite o valor do lado b do triângulo: "));
+let c = parseFloat(prompt("Digite o valor do lado c do triângulo: "));
+let h = parseFloat(prompt("Digite o valor da altura relativa ao lado b do triângulo: "));
+
+let perimetro = a + b + c;
+let area = (b * h) / 2;
+
+alert("O perímetro do triângulo é: " + perimetro.toFixed(2));
+alert("A área do triângulo é: " + area.toFixed(2));

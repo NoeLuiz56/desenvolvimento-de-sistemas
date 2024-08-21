@@ -1,0 +1,9 @@
+let palavra = prompt("Digite uma palavra: ");
+
+let palavraInvertida = palavra.split("").reverse().join("");
+
+if (palavra === palavraInvertida) {
+  alert("A palavra é palíndromo!");
+} else {
+  alert("A palavra não é palíndromo.");
+}
